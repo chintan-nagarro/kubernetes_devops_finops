@@ -48,6 +48,10 @@ app.get("/users", async (req, res) => {
   }
 });
 
+app.get('/health', (req, res) => {
+  res.status(200).send('OK');
+});
+
 process.on("uncaughtException", (err) => {
   console.error("Uncaught Exception:", err);
 });
