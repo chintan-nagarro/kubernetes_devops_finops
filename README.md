@@ -3,6 +3,7 @@
 ## 🔗 Project Delivery Artifacts
 * **Code Repository URL:** `https://github.com/chintan-nagarro/kubernetes_devops_finops.git`
 * **Docker Hub Target Image:** `chintan2026/node-api:v2`
+* **Docker Hub URL:** `https://hub.docker.com/r/chintan2026/node-api/tags`
 
 ---
 
