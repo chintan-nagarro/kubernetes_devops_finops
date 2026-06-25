@@ -48,8 +48,11 @@ app.get("/users", async (req, res) => {
   }
 });
 
-app.get('/health', (req, res) => {
-  res.status(200).send('OK');
+app.get('/health', (req,res)=>{
+  res.json({
+    status: "OK",
+    version: "v3"
+  });
 });
 
 process.on("uncaughtException", (err) => {
